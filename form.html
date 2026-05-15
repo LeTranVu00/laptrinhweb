@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Học HTML cơ bản</title>
+    <link rel="icon" href="images/logo.png">
+</head>
+<body>
+    <a href="home.html">Home</a> |
+    <a href="list.html">List</a> |
+    <a href="table.html">Table</a> |
+    <br>
+
+
+    <h1>FORM</h1>
+    <form  enctype="multipart/form-data">
+        <fieldset>
+            <legend>Thông tin cá nhân</legend>
+            <p>Họ và tên
+                <input type="text">
+            </p>
+            <p>Username
+                <input type="text">
+            </p>
+            <p>Password
+                <input type="password">
+            </p>
+            <p>Sinh nhật
+            <input type="date">
+            </p>
+            <p>Giới tính
+                <input type="radio" name = "sex"> Nam
+                <input type="radio" name = "sex"> Nữ
+            </p>
+            <p>Sở thích
+                <input type="checkbox" name = "hobby"> Bóng đá
+                <input type="checkbox" name = "hobby"> Âm nhạc
+                <input type="checkbox" name = "hobby"> Du lịch
+            </p>
+            <p>Bằng cấp
+                <select>
+                    <option value="none">--Chọn bằng cấp--</option>
+                    <option value="highschool">Trung học phổ thông</option>
+                    <option value="college">Cao đẳng</option>
+                    <option value="university">Đại học</option>
+                </select>
+            </p>
+
+            <p>Avatar
+                <input type="file" multiple>
+            </p>
+
+            <p>Giới thiệu bản thân
+                <textarea rows="5" cols="30"></textarea>
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
